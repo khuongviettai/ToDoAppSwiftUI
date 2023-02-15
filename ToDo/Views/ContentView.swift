@@ -23,8 +23,8 @@ struct ContentView: View {
             AddTaskView()
                 .environmentObject(realmManager)
         }
-//        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottom)
-//        .background(Color(hue: 0.086, saturation: 0.141, brightness: 0.972))
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottom)
+        .background(Color(hue: 0.086, saturation: 0.141, brightness: 0.972))
     }
 }
 
